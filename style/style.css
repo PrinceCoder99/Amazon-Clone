@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    min-height: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+    background-color: rgb(19, 25, 33);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+.f-head {
+    display: flex;
+    align-items: center;
+}
+
+.f-head > .image {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+}
+
+.f-head > .image > img {
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    margin-left: 22px;
+    padding: 8px;
+}
+
+.child > div {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+form > select { 
+    width: 4rem;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #0f1111;
+    text-align: center;
+    background-color: #e6e6e6;
+    border: none;
+    outline: none;
+    font-size: 9pt;
+    cursor: pointer;
+}
+
+.box-shadow {
+    box-shadow: 0 0 0 2px #f90, 0 0 0 3px rgba(255,153,0,.5);
+}
+
+form > input {   
+    width: 30rem;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+form:hover{
+    box-shadow: 0 0 0 2px #f90, 0 0 0 3px rgba(255,153,0,.5);
+}
+
+form > .search-glass {
+    width: 45px;
+    height: 40px;
+    background-color: #febd69;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14pt;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #333333;
+}
+
+form > .search-glass:hover{
+    background-color: #fbb252;
+}
+
+.last-head {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.last-head > b {
+    padding: 14px 15px;
+}
+
+.child2, .child3 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 9px;
+}
+
+.Cart{
+    padding: 12px;
+    font-size: 12pt;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.f-head > .image:hover {
+    border: 1px solid #fff;
+}
+
+.child:hover {
+    border: 1px solid #fff;
+}
+
+.child2:hover {
+    border: 1px solid #fff;
+}
+.child3:hover {
+    border: 1px solid #fff;
+}
+
+.last-head > b:hover{
+    border: 1px solid #fff;
+}
+
+.Cart:hover{
+    border: 1px solid #fff;
+}
+
+/* Second Head  */
+.bottom-head {
+    width: 100%;
+    height: 39px;
+    color: #FFFFFF;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+.hamburger {
+    display: flex;
+    font-size: 12pt;
+    font-weight: 600;
+    margin-left: 4px;
+    padding: 8px 9px;
+    cursor: pointer;
+    gap: 4px;
+}
+
+.hamburger:hover{
+    border: 1px solid #fff;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.list > p{
+    padding: 8px 9px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.list > p:hover{
+    border: 1px solid #fff;
+}
+
+
+.banner >img{
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-left: 6.1rem;
+}
+
+.banner >img:hover{
+    border: 1px solid #fff;
+}
+
+/* Main */
+
+main{
+    background-color: #e3e6e6;
+    min-height: 220vh;
+}
+
+.main-banner {
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img18/Lawn_Garden/Ud/2024/Feb/Heros/Gw-Hero-Pc-01._CB582224675_.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 226px;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e4e2e4;
+}
+
+.shop-box {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.shop-contain {
+    padding: 1rem 1rem;
+}
+
+.shop-contain > h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0F1111;
+    padding: 12px 0;
+}
+
+.shop-contain > p {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #007185;
+    cursor: pointer;
+}
+
+.shop-image > img {
+    width: 270px;
+    height: 250px;
+}
+
+/* Section 2 */
+.shop-sec2 {
+    width: 95.5%;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 1rem;
+    min-height:310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sec2-head {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: #0F1111;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.sec2-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec2-img {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f8f8;
+    flex-direction: column;
+}
+
+.sec2-img > img {
+    width: 160px;
+    height: 190px;
+}
+
+.deals-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.deals {
+    display: flex;
+    align-items: center;
+}
+
+.deals > p {
+    background-color: rgb(204, 12, 57);
+    padding: 5px;
+    font-size: 9.5pt;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+}
+
+.deals > span {
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    font-weight: 700;
+    color: #CC0C39;
+}
+
+.deals-para > p {
+    font-size: 10pt;
+    color: #0F1111;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4px;
+    margin-bottom: 2rem;
+}
+
+.back-top {
+    background-color: #37475a;
+    height: 49px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.back-top:hover{
+    background-color: #49576a;
+}
+
+.footer-items {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    background-color: #232F3E;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.items-list {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.items-list > h3 {
+    font-size: 13.5pt;
+    color: #FFFFFF;
+}
+
+.items-list > a {
+    text-decoration: none;
+    color: #DDDD;
+    font-weight: 500;
+    font-size: 11pt;
+}
+
+.items-list > a:hover {
+    text-decoration-line: underline;
+}
